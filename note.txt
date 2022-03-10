@@ -1,0 +1,7 @@
+abstract vs interface
+https://codenphp.blogspot.com/search?q=abstract%20class%20vs%20interface%20
+
+value object
+https://martinbean.dev/blog/2019/11/07/using-value-objects-in-projects/
+https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg
+https://lessthan12ms.com/value-objects-in-php.html
