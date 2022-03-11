@@ -8,4 +8,7 @@
 // require 'object-composition.php';
 // require 'value-object.php';
 // require 'exception.php';
-require 'array-destructuring-spread.php';
+// require 'array-destructuring-spread.php';
+// require 'design-patterns/singleton.php';
+// require 'design-patterns/builder.php';
+require 'design-patterns/factory.php';
