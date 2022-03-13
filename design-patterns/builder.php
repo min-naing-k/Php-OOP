@@ -52,39 +52,40 @@ class Profile
 
 $user = Profile::builder()
   ->setName('Min Naing Kyaw')
-  ->setPhone('0973489384')
+  ->setPhone('09796489433')
   ->build();
 
 // echo $user->name;
+print_r($user->phone);
 
 class CarBuilder
 {
   private $color;
   private $door;
 
-  public function setColor($color)
+  function setColor($color)
   {
     $this->color = $color;
     return $this;
   }
 
-  public function setDoor($door)
+  function setDoor($door)
   {
     $this->door = $door;
     return $this;
   }
 
-  public function getColor()
+  function getColor()
   {
     return $this->color;
   }
 
-  public function getDoor()
+  function getDoor()
   {
     return $this->door;
   }
 
-  public function build()
+  function build()
   {
     return new Car($this);
   }
@@ -112,4 +113,4 @@ $car = Car::builder()
   ->setDoor(14)
   ->build();
 
-print_r($car);
+// print_r($car);

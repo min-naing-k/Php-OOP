@@ -5,3 +5,6 @@ value object
 https://martinbean.dev/blog/2019/11/07/using-value-objects-in-projects/
 https://dev.to/ianrodrigues/writing-value-objects-in-php-4acg
 https://lessthan12ms.com/value-objects-in-php.html
+
+facade design pattern
+https://www.phptutorial.net/php-oop/php-__callstatic/
